@@ -1,0 +1,97 @@
+html,
+body {
+  font-family: $font-default;
+  font-size: $type-xxs;
+  background: $color-background;
+  color: $color-gray-darker;
+  
+  font-weight: $regular;
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  background: $color-gray-slight;
+  display: block;
+  padding: 24px;
+  margin-bottom: 24px;
+
+  &-white 
+  {
+    @extend .box;
+    h1 {
+      color: white;
+    }
+    
+    p {
+      color: white;
+
+    }
+  }
+}
+.inner {
+  flex-direction: column;
+  height: 80%;
+  width: auto;
+  background: #fff;
+  position: relative;
+}
+
+#logo {
+  font-size: $type-tiny;
+  margin: 0 0 0 1px;
+  padding: 0;
+  color: $color-brand-default;
+}
+
+p {
+  font-weight: $default;
+  font-size: $type-sm;
+
+  @media (min-width: $break-sm) {
+    font-size: $type-xs;
+  }
+}
+
+h1 {
+  font-size: $type-h1;
+  font-weight: $default;
+}
+
+.content {
+  display: inline-flex;
+    flex: 1;
+    font-size: $type-xs;
+    font-weight: $regular;
+    padding: 100px 24px 0 24px;
+    margin: 0 auto;
+    flex-direction: column;
+    max-width: 100%;
+
+  @media (min-width: $break-sm) {
+    max-width: 900px;
+ 
+  }
+
+
+  @media (min-width: $break-md) {
+    max-width: 1100px;
+  }
+
+  @media (min-width: $break-lg) {
+    max-width: 1200px;
+  }
+
+  @media (min-width: $break-xl) {
+    max-width: 1440px;
+  }
+}
+
+li {
+  list-style: none;
+}

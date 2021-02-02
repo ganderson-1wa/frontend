@@ -1,0 +1,26 @@
+.load,
+.load:after {
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+}
+.load {
+  margin: 25vh auto;
+  position: relative;
+  border-top: 2px solid $color-blue-slight;
+  border-right: 2px solid $color-blue-slight;
+  border-bottom: 2px solid $color-blue-slight;
+  border-left: 2px solid $color-blue-default;
+  animation: loader 1s infinite linear;
+
+}
+
+@keyframes loader {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+

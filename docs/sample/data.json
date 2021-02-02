@@ -1,0 +1,26 @@
+{
+  "palette": {
+    "colors": [
+      {
+        "id": 0,
+        "hex": "#2e86de",
+        "name": "Blue"
+      },
+      {
+        "id": 1,
+        "hex": "#01a3a4",
+        "name": "Green"
+      },
+      {
+        "id": 2,
+        "hex": "#ff9f43",
+        "name": "Orange"
+      },
+      {
+        "id": 3,
+        "hex": "#ee5253",
+        "name": "Red"
+      }
+    ]
+  }
+}

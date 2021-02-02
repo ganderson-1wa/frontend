@@ -1,0 +1,94 @@
+
+
+$color-white: #fff;
+$color-white-light: rgba(255, 255, 255, 0.3);
+$color-white-half: rgba(255, 255, 255, 0.5);
+$color-white-medium: rgba(255, 255, 255, 0.75);
+$color-white-default: rgba(255, 255, 255, 0.9);
+$color-white-slight: rgba(255, 255, 255, 0.15);
+$color-white-note: rgba(255, 255, 255, 0.06);
+
+$color-red: rgba(173, 0, 0,1); // B70501
+$color-red-default: rgba(173, 0, 0, 0.85); // C22A27
+$color-red-medium: rgba(173, 0, 0, 0.75); // C94441
+$color-red-half: rgba(173, 0, 0, 0.5); // DB8280
+$color-red-light: rgba(173, 0, 0, 0.3); // E9B4B2
+$color-red-slight: rgba(173, 0, 0, 0.15); // F4DAD9
+$color-red-note: rgba(173, 0, 0, 0.06); // FBF0F0
+
+$color-pink: rgba(255, 63, 63, 1); // FF7B7B
+$color-pink-default: rgba(255, 63, 63, 0.9);
+$color-pink-medium: rgba(255, 63, 63, 0.75);
+$color-pink-half: rgba(255, 63, 63, 0.5);
+$color-pink-light: rgba(255, 63, 63, 0.3);
+$color-pink-slight: rgba(255, 63, 63, 0.15);
+$color-pink-note: rgba(255, 63, 63, 0.06);
+
+$color-orange: rgba(255, 162, 64, 1); // FFAD00
+$color-orange-default: rgba(255, 162, 64, 0.9);
+$color-orange-medium: rgba(255, 162, 64, 0.75);
+$color-orange-half: rgba(255, 162, 64, 0.5);
+$color-orange-light: rgba(255, 162, 64, 0.3);
+$color-orange-slight: rgba(255, 162, 64, 0.15);
+$color-orange-note: rgba(255, 162, 64, 0.06);
+
+$color-yellow: rgba(255, 228, 64, 1); // FFD600
+$color-yellow-default: rgba(255, 228, 64, 0.85); // ffdc26
+$color-yellow-medium: rgba(255, 228, 64, 0.75); //FFE040
+$color-yellow-half: rgba(255, 228, 64, 0.5); //FFEA7F
+$color-yellow-light: rgba(255, 228, 64, 0.3); //255, 228, 64,.3
+$color-yellow-slight: rgba(255, 228, 64, 0.15); //FFF9D9
+$color-yellow-note: rgba(255, 228, 64, 0.06); //fffdf0
+
+$color-green: rgba(0, 173, 116,1); // 00AB8D
+$color-green-default: rgba(0, 173, 116, 0.9); // 26b89e
+$color-green-medium: rgba(0, 173, 116, 0.75); // 40C0AA
+$color-green-half: rgba(0, 173, 116, 0.5); // 7FD5C6
+$color-green-light: rgba(0, 173, 116, 0.3); // B2E6DD
+$color-green-slight: rgba(0, 173, 116, 0.15); // D9F2EE
+$color-green-note: rgba(0, 173, 116, 0.06); // f0faf8
+
+$color-mid: rgba(64,182,192, 1); // 009eab
+$color-mid-default: rgba(64,182,192,.85); // 26acb8
+$color-mid-medium: rgba(64,182,192,.75); // 40b6c0
+$color-mid-half: rgba(64,182,192,.5); // 7fced5
+$color-mid-light: rgba(64,182,192,.3); // b2e2e6
+$color-mid-slight: rgba(64,182,192,.15); // d9f1f2
+$color-mid-note: rgba(64,182,192,.06); // f0f9fa
+
+$color-brand: rgba(0, 116, 173,1); // 0073AB
+$color-brand-default: rgba(0, 116, 173, 0.9); // 2688b8
+$color-brand-medium: rgba(0, 116, 173, 0.75); // 4096C0
+$color-brand-half: rgba(0, 116, 173, 0.5); // 7FB9D5
+$color-brand-light: rgba(0, 116, 173, 0.3); // B2D5E6
+$color-brand-slight: rgba(0, 116, 173, 0.15); // D9EAF2
+$color-brand-note: rgba(0, 116, 173, 0.06); // f0f9fa
+
+
+$color-blue: rgba(0, 83, 124, 1);  // 1D4F7F
+$color-blue-default: rgba(0, 83, 124, 0.85); // 3f6992
+$color-blue-medium: rgba(0, 83, 124, 0.75); // 567B9F
+$color-blue-half: rgba(0, 83, 124, 0.5); // 8EA7BF
+$color-blue-light: rgba(0, 83, 124, 0.3); // BBCAD8
+$color-blue-slight: rgba(0, 83, 124, 0.15); // DDE5EC
+$color-blue-note: rgba(0, 83, 124, 0.06); // f2f5f7
+$color-blue-hover: rgba(0, 83, 124, 0.1);
+
+$color-gray-solid: #F1F3F5; 
+$color-gray: #9EADBB; // #788898
+$color-gray-subtle: #f9fafb;
+$color-gray-light: rgba(158, 173, 189, 0.3);
+// $color-gray-medium: rgba(158, 173, 189, 0.75);
+$color-gray-medium: #6D7F90;
+$color-gray-half: rgba(158, 173, 189, 0.5);
+$color-gray-slight: rgba(158, 173, 189, 0.15);
+$color-gray-note: rgba(158, 173, 189, 0.06);
+$color-gray-dark: #4C5864;
+$color-gray-darker: #2B3239;
+$color-gray-darkest: #121d2d;
+
+$color-background: $color-white;
+
+$color-indicator: $color-green;
+$color-indicator-text: $color-white;
+
