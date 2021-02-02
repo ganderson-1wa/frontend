@@ -1,5 +1,7 @@
 #frontend-assignment
 
+Clone this repo: https://github.com/ganderson-1wa/frontend.git
+
 run **npm install** in **app** directory installing all dependencies listed in package.json.
 
 Build by running **npm run build** in the **app** directory (or to build in watch mode run **npx webpack -w**).
@@ -23,5 +25,9 @@ Create a click handler to pass props from this component (ComponentA) to a secon
 The styled box should change color based on the each time the corresponding button in ComponentA is clicked.
 
 Both Components should align horizontally and vertically in the center of viewport using Flexbox.
+
+This assignment should take less than an hour to complete.
+
+Once finished, create a github repo with a readme of instructions on how to run your application.
 
 Here is what you are trying to achieve : https://ganderson-1wa.github.io/frontend/answer.html
