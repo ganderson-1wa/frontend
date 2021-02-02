@@ -14,11 +14,11 @@ Build in production mode with **npm run build -- --mode=production** or in watch
 
 **Assignment Instructions**
 
-Fetch data from [../docs/sample/data.json](../docs/sample/data.json)
+Fetch data from local file in ..docs/sample/data.json or remote file https://ganderson-1wa.github.io/frontend/sample/data.json
 
-Use axios or async await to fetch data
+Use axios or async await to fetch data.
 
-Map array from colors object, displaying 4 buttons, one for each color. Use the 'name' for button label and style each button with corresponding 'hex' value.
+Map array in palette > colors object.  Display 4 buttons, one for each color. Use the 'name' for button label and style each button with corresponding 'hex' value.
 
 Create a click handler to pass props from this component (ComponentA) to a second component (ComponentB). Both the color name and hex value should be passed to ComponentB and subsequenty style a box using the hex value and display the color name.
 
