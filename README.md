@@ -1,4 +1,4 @@
-## frontend-assignment
+## Frontend Developer Assignment
 
 Clone this repo: https://github.com/ganderson-1wa/frontend.git
 
